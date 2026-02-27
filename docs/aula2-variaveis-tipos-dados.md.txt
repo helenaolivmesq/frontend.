@@ -1,0 +1,160 @@
+Perfeito 👍
+Abaixo está o texto **já formatado em Markdown puro**, pronto para você copiar e colar em um arquivo `.md`.
+
+---
+
+# Variáveis e Tipos de Dados na Lógica de Programação
+
+Na lógica de programação, **variáveis** e **tipos de dados** são conceitos fundamentais para a construção de algoritmos. Eles permitem armazenar informações, manipulá-las e utilizá-las na resolução de problemas computacionais.
+
+---
+
+## O que são Variáveis?
+
+Uma **variável** é um espaço reservado na memória do computador utilizado para armazenar um valor que pode ser alterado durante a execução de um programa.
+
+Podemos imaginar uma variável como uma caixa identificada por um nome, onde guardamos um dado. Esse valor pode mudar ao longo do tempo.
+
+### Exemplo conceitual
+
+```text
+idade ← 25
+```
+
+Se posteriormente fizermos:
+
+```text
+idade ← 26
+```
+
+O valor anterior será substituído pelo novo.
+
+---
+
+## Regras básicas para nomear variáveis
+
+Em lógica de programação, algumas boas práticas incluem:
+
+* Utilizar nomes claros e descritivos (ex: `notaFinal`, `quantidadeAlunos`)
+* Não iniciar com números
+* Não utilizar espaços
+* Evitar palavras reservadas da linguagem
+
+---
+
+## O que são Tipos de Dados?
+
+Os **tipos de dados** definem qual tipo de valor uma variável pode armazenar. Eles determinam como a informação será interpretada e manipulada pelo programa.
+
+Cada tipo de dado possui características próprias e permite operações específicas.
+
+---
+
+## Principais Tipos de Dados
+
+### 1. Inteiro (Integer)
+
+Armazena números sem casas decimais.
+
+**Exemplos:**
+
+* 10
+* -5
+* 0
+
+Usado para representar quantidades, idades, números de itens, entre outros.
+
+---
+
+### 2. Real (Float ou Double)
+
+Armazena números com casas decimais.
+
+**Exemplos:**
+
+* 3.14
+* 9.99
+* -2.5
+
+Utilizado para valores que exigem maior precisão, como peso, altura e valores monetários.
+
+---
+
+### 3. Caractere (Char)
+
+Armazena um único caractere.
+
+**Exemplos:**
+
+* 'A'
+* 'b'
+* '7'
+
+---
+
+### 4. Cadeia de Caracteres (String)
+
+Armazena um conjunto de caracteres, ou seja, textos.
+
+**Exemplos:**
+
+* "Maria"
+* "Lógica de Programação"
+* "2026"
+
+---
+
+### 5. Booleano (Boolean)
+
+Armazena apenas dois valores possíveis:
+
+* verdadeiro
+* falso
+
+Muito utilizado em estruturas de decisão, como condicionais.
+
+---
+
+## Importância dos Tipos de Dados
+
+Os tipos de dados são importantes porque:
+
+* Definem quais operações podem ser realizadas
+* Evitam erros de execução
+* Organizam melhor a estrutura do programa
+* Influenciam no uso de memória
+
+Por exemplo:
+
+* Podemos somar dois números inteiros
+* Podemos concatenar duas strings
+* Podemos comparar valores booleanos
+
+---
+
+## Relação entre Variáveis e Tipos de Dados
+
+Ao declarar uma variável, geralmente definimos seu tipo. Isso garante que apenas valores compatíveis sejam armazenados.
+
+### Exemplo conceitual
+
+```text
+inteiro idade
+real salario
+string nome
+booleano aprovado
+```
+
+Cada variável só poderá receber valores correspondentes ao seu tipo.
+
+---
+
+## Conclusão
+
+Na lógica de programação:
+
+* **Variáveis** armazenam dados
+* **Tipos de dados** definem a natureza desses dados
+* Ambos são essenciais para a construção de algoritmos
+
+Compreender esses conceitos é o primeiro passo para aprender qualquer linguagem de programação, pois todo sistema computacional depende do uso adequado de variáveis e tipos de dados.

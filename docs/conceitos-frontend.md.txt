@@ -1,0 +1,140 @@
+Segue abaixo o conteúdo em **Markdown puro**, pronto para copiar e colar em um arquivo `.md`.
+
+---
+
+# Frontend: Desenvolvimento da Interface do Usuário
+
+O **Frontend** é a parte do desenvolvimento responsável pela interface com a qual o usuário interage. Tudo o que é visual, interativo e exibido no navegador faz parte do frontend.
+
+Ele conecta o design à funcionalidade, permitindo que o usuário utilize sistemas, sites e aplicações de forma intuitiva.
+
+---
+
+## 🎯 O que é Frontend?
+
+Frontend é a camada de uma aplicação responsável por:
+
+* Exibir informações na tela
+* Capturar interações do usuário
+* Enviar e receber dados do backend
+* Garantir uma boa experiência de uso
+
+É executado principalmente no navegador.
+
+---
+
+## 🛠️ Principais Tecnologias do Frontend
+
+### 1. HTML (HyperText Markup Language)
+
+Responsável pela **estrutura** da página.
+
+Exemplo:
+
+```html
+<h1>Olá, mundo!</h1>
+<p>Bem-vindo ao site.</p>
+```
+
+Define títulos, parágrafos, imagens, botões e outros elementos.
+
+---
+
+### 2. CSS (Cascading Style Sheets)
+
+Responsável pelo **estilo** da página.
+
+Exemplo:
+
+```css
+h1 {
+  color: blue;
+}
+```
+
+Define cores, tamanhos, espaçamentos, layouts e responsividade.
+
+---
+
+### 3. JavaScript
+
+Responsável pela **interatividade**.
+
+Exemplo:
+
+```javascript
+document.querySelector("button").addEventListener("click", () => {
+  alert("Botão clicado!");
+});
+```
+
+Permite criar animações, validações, requisições para APIs e muito mais.
+
+---
+
+## ⚙️ Frameworks e Bibliotecas
+
+Para facilitar o desenvolvimento, existem ferramentas modernas como:
+
+* React
+* Vue.js
+* Angular
+* Svelte
+
+Essas tecnologias ajudam a organizar o código e criar aplicações mais complexas.
+
+---
+
+## 📱 Responsividade
+
+Um dos papéis do frontend é garantir que a aplicação funcione corretamente em:
+
+* Computadores
+* Tablets
+* Smartphones
+
+Isso é feito com técnicas como:
+
+* Media Queries
+* Layouts flexíveis (Flexbox e Grid)
+* Design responsivo
+
+---
+
+## 🔄 Comunicação com o Backend
+
+O frontend se comunica com o backend por meio de requisições HTTP, geralmente utilizando:
+
+* Fetch API
+* Axios
+* REST APIs
+
+Essa comunicação permite buscar e enviar dados dinamicamente.
+
+---
+
+## 🎨 Experiência do Usuário (UX)
+
+O frontend também está diretamente ligado à:
+
+* Usabilidade
+* Acessibilidade
+* Performance
+* Organização visual
+
+Um bom frontend deve ser:
+
+* Intuitivo
+* Rápido
+* Responsivo
+* Acessível
+
+---
+
+## ✅ Conclusão
+
+O **Frontend** é responsável por tudo o que o usuário vê e interage em uma aplicação. Ele combina estrutura (HTML), estilo (CSS) e comportamento (JavaScript) para criar experiências digitais modernas.
+
+Dominar frontend é essencial para quem deseja desenvolver sites e aplicações web profissionais e de alta qualidade.
+
+

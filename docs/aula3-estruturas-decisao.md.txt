@@ -1,0 +1,38 @@
+## Estruturas de Decisão na Lógica de Programação
+
+As **estruturas de decisão** (ou estruturas condicionais) são fundamentais na lógica de programação, pois permitem que um algoritmo **tome decisões** com base em condições. Em outras palavras, elas definem caminhos diferentes de execução dependendo se uma condição é verdadeira ou falsa.
+
+---
+
+### 📌 O que são?
+
+São comandos que avaliam uma **expressão lógica** (condição) e executam determinados blocos de código conforme o resultado dessa avaliação.
+
+Uma condição normalmente resulta em:
+
+- **Verdadeiro (true)**
+- **Falso (false)**
+
+---
+
+### 🧠 Por que são importantes?
+
+Sem estruturas de decisão, um programa executaria sempre as mesmas instruções, sem considerar situações diferentes. Com elas, é possível:
+
+- Validar dados  
+- Controlar fluxos  
+- Criar interatividade  
+- Resolver problemas do mundo real  
+
+---
+
+### 🔹 Tipos Principais
+
+#### 1. Estrutura Condicional Simples
+
+Executa um bloco de código **apenas se a condição for verdadeira**.
+
+```text
+SE idade >= 18 ENTÃO
+    exibir "Maior de idade"
+FIMSE
